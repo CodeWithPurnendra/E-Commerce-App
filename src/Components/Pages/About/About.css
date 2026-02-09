@@ -1,0 +1,151 @@
+
+.about-container {
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2.5rem 2rem;
+  text-align: center;
+}
+
+.about-page h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #4338ca;
+  margin-bottom: 1rem;
+}
+
+.about-page p {
+  font-size: 1rem;
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 0.6rem;
+}
+
+.about-features {
+  max-width: 1100px;
+  margin: 2.5rem auto 4rem;
+  padding: 0 2.5rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-stats {
+  max-width: 1100px;
+  margin: 2.5rem auto;
+  padding: 0 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.8rem 1.4rem;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Highlighted middle card */
+.stat-card.highlight {
+  background: #ef4444;
+  color: #ffffff;
+  border: none;
+}
+
+.stat-card.highlight p {
+  color: #fee2e2;
+}
+
+.stat-icon {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 0.8rem;
+  border-radius: 50%;
+  background: #f1f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #4338ca;
+}
+
+.stat-card.highlight .stat-icon {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.stat-card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.stat-card p {
+  font-size: 0.85rem;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+
+/* FEATURE CARD */
+.feature {
+  flex: 1;
+  min-width: 260px;
+  border-radius: 18px;
+  padding: 2rem 1.6rem;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.feature:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.6rem;
+}
+
+.feature p {
+  font-size: 0.95rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 2.2rem 1.5rem 1.5rem;
+  }
+
+  .about-page h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-features {
+    flex-direction: column;
+    padding: 0 1.5rem;
+  }
+}

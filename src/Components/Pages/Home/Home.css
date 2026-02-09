@@ -1,0 +1,54 @@
+
+.home-page {
+  background: #f8fafc;
+  min-height: 100vh;
+}
+.herosection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2.5rem 2rem;
+  text-align: center;
+}
+
+.herosection h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #4338ca;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.5px;
+}
+
+.herosection p {
+  font-size: 1rem;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.herosection::after {
+  content: "";
+  display: block;
+  margin-top: 2.2rem;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #c7d2fe,
+    transparent
+  );
+}
+
+@media (max-width: 768px) {
+  .herosection {
+    padding: 2.2rem 1.5rem 1.5rem;
+  }
+
+  .herosection h1 {
+    font-size: 1.8rem;
+  }
+
+  .herosection p {
+    font-size: 0.95rem;
+  }
+}
