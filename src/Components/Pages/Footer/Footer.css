@@ -1,22 +1,22 @@
-
 .footer {
   background: linear-gradient(135deg, #1e1b4b, #312e81);
   color: #e5e7eb;
-  margin-top: 4rem;
+  width: 100%;
 }
 
-/* CONTENT */
+/* ================= CONTENT ================= */
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 2.5rem;
+  padding: 3rem 2.5rem 2.5rem;
   display: flex;
-  gap: 3rem;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
   flex-wrap: wrap;
 }
 
-/* BRAND */
+/* ================= BRAND ================= */
 .footer-brand {
   max-width: 360px;
 }
@@ -42,31 +42,46 @@
   color: #c7d2fe;
 }
 
-/* LINKS */
-.footer-links h4,
-.footer-social h4 {
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
-  color: #ffffff;
+/* ================= LINKS ================= */
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
 }
 
 .footer-links a {
-  display: block;
   font-size: 0.9rem;
   color: #c7d2fe;
   text-decoration: none;
-  margin-bottom: 0.5rem;
-  transition: color 0.2s ease;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+.footer-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: #6366f1;
+  transition: width 0.25s ease;
 }
 
 .footer-links a:hover {
   color: #ffffff;
 }
 
-/* SOCIAL */
+.footer-links a:hover::after {
+  width: 100%;
+}
+
+/* ================= SOCIAL ================= */
 .social-icons {
   display: flex;
-  gap: 0.8rem;
+  gap: 0.9rem;
+  margin-top: 0.3rem;
 }
 
 .social-icons a {
@@ -79,7 +94,7 @@
   justify-content: center;
   color: #ffffff;
   font-size: 1.2rem;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition: transform 0.25s ease, background 0.25s ease;
 }
 
 .social-icons a:hover {
@@ -87,19 +102,30 @@
   background: #6366f1;
 }
 
-/* BOTTOM */
+/* ================= BOTTOM ================= */
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 1rem;
   font-size: 0.85rem;
   color: #c7d2fe;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 2rem;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .social-icons {
+    justify-content: center;
   }
 }

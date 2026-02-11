@@ -9,8 +9,8 @@ function Home() {
         <h1>Welcome to MiniMart</h1>
         <p>Your one-stop shop for amazing products!</p>
       </section>
-      <ProductList />
-      <Footer/>
+      <ProductList showAddToCart={false} />
+      <Footer />
     </div>
   );
 }

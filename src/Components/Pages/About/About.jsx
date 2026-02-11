@@ -1,11 +1,9 @@
 import Footer from "../Footer/footer";
 import "./About.css";
-import {
-  HiOutlineUsers,
-  HiOutlineShoppingBag,
-} from "react-icons/hi";
+import { HiOutlineUsers, HiOutlineShoppingBag } from "react-icons/hi";
 import { MdOutlinePayments } from "react-icons/md";
 import { BsShop } from "react-icons/bs";
+import { FiTruck, FiShield, FiStar } from "react-icons/fi";
 
 function About() {
   return (
@@ -14,13 +12,11 @@ function About() {
         <h1>About MiniMart</h1>
         <p>Welcome to MiniMart, your trusted online shopping destination!</p>
         <p>
-          We are committed to providing you with the best products at competitive
-          prices. Our mission is to make online shopping easy, convenient, and
-          enjoyable.
+          We are committed to providing you with the best products at
+          competitive prices. Our mission is to make online shopping easy,
+          convenient, and enjoyable.
         </p>
       </section>
-
-      {/* STATS SECTION */}
       <section className="about-stats">
         <div className="stat-card">
           <div className="stat-icon">
@@ -57,19 +53,28 @@ function About() {
 
       <section className="about-features">
         <div className="feature">
-          <h2>🚚 Fast Delivery</h2>
-          <p>Get your orders delivered quickly</p>
+          <div className="feature-icon">
+            <FiTruck />
+          </div>
+          <h2>Fast Delivery</h2>
+          <p>Get your orders delivered quickly and on time</p>
+        </div>
+
+        <div className="feature">
+          <div className="feature-icon">
+            <FiShield />
+          </div>
+          <h2>Secure Payment</h2>
+          <p>Safe and encrypted payment transactions</p>
         </div>
         <div className="feature">
-          <h2>💳 Secure Payment</h2>
-          <p>Safe and secure transactions</p>
-        </div>
-        <div className="feature">
-          <h2>⭐ Quality Products</h2>
-          <p>Only the best for our customers</p>
+          <div className="feature-icon">
+            <FiStar />
+          </div>
+          <h2>Quality Products</h2>
+          <p>Only the best and trusted products for customers</p>
         </div>
       </section>
-
       <Footer />
     </div>
   );

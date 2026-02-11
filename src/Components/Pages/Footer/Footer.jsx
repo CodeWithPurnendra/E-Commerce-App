@@ -18,9 +18,9 @@ function Footer() {
           </p>
         </div>
         <div className="footer-links">
-          <h4>Explore</h4>
           <a href="/">Home</a>
           <a href="/about">About</a>
+          <a href="/products">Products</a>
           <a href="/contact">Contact</a>
           <a href="/signup">Sign Up</a>
         </div>
