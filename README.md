@@ -1,16 +1,32 @@
-# React + Vite
+# 🛒 MiniMart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MiniMart is a modern E-Commerce web application built using **React + Vite**.  
+It allows users to browse products, search items, add them to cart, and manage their shopping experience smoothly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔎 Product Search
+- 🛍️ Product Listing
+- 🛒 Add to Cart
+- ➕ Increase / Decrease Quantity
+- 🗑️ Remove Items from Cart
+- 💰 Dynamic Cart Total Calculation
+- 📱 Fully Responsive Design
+- 🎨 Modern UI
+- ⚡ Fast Performance (Vite)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Context API
+- React Icons
+- CSS3
+- JavaScript (ES6+)
+
+---
+
