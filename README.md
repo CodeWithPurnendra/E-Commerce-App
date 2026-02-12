@@ -35,7 +35,7 @@ It allows users to browse products, search items, add them to cart, and manage t
 
 ### Clone the repository
 ```bash
-git clone https://github.com/CodeWithPurnendra/RandomQuoteGenerator.git
+git clone https://github.com/CodeWithPurnendra/E-Commerce-App.git
 ```
 ### Navigate to the project folder
 ```bash
