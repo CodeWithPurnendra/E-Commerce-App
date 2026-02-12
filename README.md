@@ -30,3 +30,23 @@ It allows users to browse products, search items, add them to cart, and manage t
 
 ---
 
+---
+## 📦 Installation & Setup
+
+### Clone the repository
+```bash
+git clone https://github.com/CodeWithPurnendra/RandomQuoteGenerator.git
+```
+### Navigate to the project folder
+```bash
+cd search-app
+```
+### Install dependencies
+```bash
+npm install
+```
+### Start the development server
+```bash
+npm run dev
+```
+---
