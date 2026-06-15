@@ -4,7 +4,6 @@ MiniMart is a modern E-Commerce web application built using **React + Vite**.
 It allows users to browse products, search items, add them to cart, and manage their shopping experience smoothly.
 
 ---
-
 ## 🚀 Features
 
 - 🔎 Product Search
