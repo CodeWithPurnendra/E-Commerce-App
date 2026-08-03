@@ -28,8 +28,6 @@ It allows users to browse products, search items, add them to cart, and manage t
 - JavaScript (ES6+)
 
 ---
-
----
 ## 📦 Installation & Setup
 
 ### Clone the repository
