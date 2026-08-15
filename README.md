@@ -36,7 +36,7 @@ git clone https://github.com/CodeWithPurnendra/E-Commerce-App.git
 ```
 ### Navigate to the project folder
 ```bash
-cd search-app
+cd e-commerce-app
 ```
 ### Install dependencies
 ```bash
